@@ -32,7 +32,6 @@ class App extends Component {
   render() {
     const { monsters, searchField } = this.state;
     const { onInputChange } = this;
-    console.log("render");
     const filteredList = this.state.monsters.filter((monster) => {
       return monster.name.toLocaleLowerCase().includes(this.state.searchField);
     });

@@ -11,7 +11,7 @@ class CardContainer extends Component {
           src={`https://robohash.org/${id}?set=set2&size=180x180`}
         />
         <h2 className="monster-name">{name}</h2>
-        <p class="monster-name">{email}</p>
+        <p className="monster-name">{email}</p>
       </div>
     );
   }
